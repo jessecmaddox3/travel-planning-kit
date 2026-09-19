@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "travel-planning-kit"
+version = "1.0.0"
+description = "Local packing, trip plans and rental comparisons, with a browser editor."
+requires-python = ">=3.11"
+license = "MIT"
+readme = "README.md"
+
+[project.scripts]
+travel-kit = "travel_kit.cli:main"
+
+[tool.setuptools.package-data]
+travel_kit = ["*.css", "*.html", "*.js", "*.txt", "example/*.json", "example/images/*.png"]
+
+[tool.setuptools.packages.find]
+include = ["travel_kit"]

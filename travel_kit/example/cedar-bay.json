@@ -1,0 +1,1278 @@
+{
+  "formatVersion": 1,
+  "trip": {
+    "title": "Cedar Bay Weekender",
+    "subtitle": "A completely invented example, ready to make your own",
+    "destination": "Cedar Bay (fictional)",
+    "origin": "North Quay (fictional)",
+    "start": "2034-09-07",
+    "end": "2034-09-10",
+    "party": "Four friends, two households (invented example)"
+  },
+  "catalog": {
+    "categories": [
+      {
+        "id": "essentials",
+        "label": "Morning and everyday essentials",
+        "column": 1,
+        "note": "Check these again just before leaving."
+      },
+      {
+        "id": "clothing",
+        "label": "Traveller clothing",
+        "column": 1,
+        "note": "Adjust quantities to the weather and length of your stay."
+      },
+      {
+        "id": "children",
+        "label": "Children, if joining",
+        "column": 1,
+        "note": "Optional category. Select only what this trip needs."
+      },
+      {
+        "id": "health",
+        "label": "Health and personal care",
+        "column": 1,
+        "note": "Bring only items appropriate for your own needs."
+      },
+      {
+        "id": "baby",
+        "label": "Baby, if joining",
+        "column": 1,
+        "note": "Optional category. Confirm what the accommodation supplies."
+      },
+      {
+        "id": "bedding",
+        "label": "Bedding and comfort",
+        "column": 1,
+        "note": "Check the accommodation list before packing bulky items."
+      },
+      {
+        "id": "seating",
+        "label": "Furniture and seating",
+        "column": 1,
+        "note": "Pack only if the location does not supply them."
+      },
+      {
+        "id": "electronics",
+        "label": "Electronics",
+        "column": 1,
+        "note": "Download anything needed where reception may be limited."
+      },
+      {
+        "id": "beach",
+        "label": "Beach and pool",
+        "column": 2,
+        "note": "Keep wet items separate on the way home."
+      },
+      {
+        "id": "outdoor",
+        "label": "Outdoor gear",
+        "column": 2,
+        "note": "Pick equipment for the activities actually planned."
+      },
+      {
+        "id": "play",
+        "label": "Books and small games",
+        "column": 2,
+        "note": "Choose a few favourites rather than the whole shelf."
+      },
+      {
+        "id": "kitchen",
+        "label": "Kitchen basics",
+        "column": 2,
+        "note": "Check the supplied kitchen equipment first."
+      },
+      {
+        "id": "fridge",
+        "label": "Fridge and condiments",
+        "column": 2,
+        "note": "Transport perishables safely for the journey."
+      },
+      {
+        "id": "pantry",
+        "label": "Pantry and drinks",
+        "column": 2,
+        "note": "Plan quantities from the meals you choose."
+      },
+      {
+        "id": "produce",
+        "label": "Produce",
+        "column": 2,
+        "note": "Match this to your meal plan."
+      },
+      {
+        "id": "protein",
+        "label": "Protein and chilled food",
+        "column": 2,
+        "note": "Optional shopping list for self-catering."
+      },
+      {
+        "id": "road-lunch",
+        "label": "Road-trip lunch",
+        "column": 2,
+        "note": "Keep a separate bag for the journey."
+      },
+      {
+        "id": "meal-ideas",
+        "label": "Meal plan ideas",
+        "column": 2,
+        "note": "Select meals, then adjust the shopping list."
+      }
+    ],
+    "items": [
+      {
+        "id": "essentials-1",
+        "category": "essentials",
+        "label": "Keys",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "essentials-2",
+        "category": "essentials",
+        "label": "Wallet",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "essentials-3",
+        "category": "essentials",
+        "label": "Phone",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "essentials-4",
+        "category": "essentials",
+        "label": "Glasses",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "essentials-5",
+        "category": "essentials",
+        "label": "Charging cable",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "essentials-6",
+        "category": "essentials",
+        "label": "Reusable water bottle",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "clothing-1",
+        "category": "clothing",
+        "label": "Everyday tops",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "clothing-2",
+        "category": "clothing",
+        "label": "Everyday bottoms",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "clothing-3",
+        "category": "clothing",
+        "label": "Underwear",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "clothing-4",
+        "category": "clothing",
+        "label": "Socks",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "clothing-5",
+        "category": "clothing",
+        "label": "Sleepwear",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "clothing-6",
+        "category": "clothing",
+        "label": "Light rain layer",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "clothing-7",
+        "category": "clothing",
+        "label": "Comfortable shoes",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "children-1",
+        "category": "children",
+        "label": "Spare outfit",
+        "tags": [],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "children-2",
+        "category": "children",
+        "label": "Swim layer",
+        "tags": [],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "children-3",
+        "category": "children",
+        "label": "Favourite small comfort item",
+        "tags": [],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "children-4",
+        "category": "children",
+        "label": "Sun hat",
+        "tags": [],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "health-1",
+        "category": "health",
+        "label": "Personal prescriptions, if needed",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "health-2",
+        "category": "health",
+        "label": "Toothbrush and toothpaste",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "health-3",
+        "category": "health",
+        "label": "Soap and shampoo",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "health-4",
+        "category": "health",
+        "label": "Sunscreen",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "health-5",
+        "category": "health",
+        "label": "Small first-aid kit",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "baby-1",
+        "category": "baby",
+        "label": "Travel sleep space",
+        "tags": [],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "baby-2",
+        "category": "baby",
+        "label": "Feeding supplies",
+        "tags": [],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "baby-3",
+        "category": "baby",
+        "label": "Changing supplies",
+        "tags": [],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "baby-4",
+        "category": "baby",
+        "label": "Spare linens",
+        "tags": [],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "bedding-1",
+        "category": "bedding",
+        "label": "Sleeping bag",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "bedding-2",
+        "category": "bedding",
+        "label": "Pillow",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "bedding-3",
+        "category": "bedding",
+        "label": "Extra blanket",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "seating-1",
+        "category": "seating",
+        "label": "Folding chairs",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "seating-2",
+        "category": "seating",
+        "label": "Small camp table",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "electronics-1",
+        "category": "electronics",
+        "label": "Device chargers",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "electronics-2",
+        "category": "electronics",
+        "label": "Power bank",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "electronics-3",
+        "category": "electronics",
+        "label": "Headphones",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "electronics-4",
+        "category": "electronics",
+        "label": "Offline route map",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "beach-1",
+        "category": "beach",
+        "label": "Swimwear",
+        "tags": [
+          "beach"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "beach-2",
+        "category": "beach",
+        "label": "Beach towels",
+        "tags": [
+          "beach"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "beach-3",
+        "category": "beach",
+        "label": "Shade umbrella",
+        "tags": [
+          "beach"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "beach-4",
+        "category": "beach",
+        "label": "Water shoes",
+        "tags": [
+          "beach"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "beach-5",
+        "category": "beach",
+        "label": "Dry bag",
+        "tags": [
+          "beach"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "outdoor-1",
+        "category": "outdoor",
+        "label": "Day bag",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "outdoor-2",
+        "category": "outdoor",
+        "label": "Sunglasses",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "outdoor-3",
+        "category": "outdoor",
+        "label": "Walking hat",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "outdoor-4",
+        "category": "outdoor",
+        "label": "Reusable shopping bag",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "play-1",
+        "category": "play",
+        "label": "Reading book",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "play-2",
+        "category": "play",
+        "label": "Deck of cards",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "play-3",
+        "category": "play",
+        "label": "Small board game",
+        "tags": [
+          "universal"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "kitchen-1",
+        "category": "kitchen",
+        "label": "Reusable plates",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "kitchen-2",
+        "category": "kitchen",
+        "label": "Mugs and utensils",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "kitchen-3",
+        "category": "kitchen",
+        "label": "Dish soap and sponge",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "kitchen-4",
+        "category": "kitchen",
+        "label": "Kitchen towel",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "kitchen-5",
+        "category": "kitchen",
+        "label": "Rubbish bags",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "fridge-1",
+        "category": "fridge",
+        "label": "Cooking oil",
+        "tags": [
+          "beach"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "fridge-2",
+        "category": "fridge",
+        "label": "Salt and pepper",
+        "tags": [
+          "beach"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "fridge-3",
+        "category": "fridge",
+        "label": "Spread or sauce",
+        "tags": [
+          "beach"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "fridge-4",
+        "category": "fridge",
+        "label": "Cool box",
+        "tags": [
+          "beach"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "pantry-1",
+        "category": "pantry",
+        "label": "Oats or cereal",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "pantry-2",
+        "category": "pantry",
+        "label": "Rice or pasta",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "pantry-3",
+        "category": "pantry",
+        "label": "Coffee or tea",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "pantry-4",
+        "category": "pantry",
+        "label": "Snack mix",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "pantry-5",
+        "category": "pantry",
+        "label": "Drinking water",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "produce-1",
+        "category": "produce",
+        "label": "Breakfast fruit",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "produce-2",
+        "category": "produce",
+        "label": "Lunch vegetables",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "produce-3",
+        "category": "produce",
+        "label": "Salad ingredients",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "protein-1",
+        "category": "protein",
+        "label": "Eggs or chosen alternative",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "protein-2",
+        "category": "protein",
+        "label": "Milk or chosen alternative",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "protein-3",
+        "category": "protein",
+        "label": "Planned dinner protein",
+        "tags": [
+          "camping"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "road-lunch-1",
+        "category": "road-lunch",
+        "label": "Packed sandwiches",
+        "tags": [
+          "road-trip"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "road-lunch-2",
+        "category": "road-lunch",
+        "label": "Fruit portions",
+        "tags": [
+          "road-trip"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "road-lunch-3",
+        "category": "road-lunch",
+        "label": "Refillable drinks",
+        "tags": [
+          "road-trip"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "road-lunch-4",
+        "category": "road-lunch",
+        "label": "Napkins",
+        "tags": [
+          "road-trip"
+        ],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "meal-ideas-1",
+        "category": "meal-ideas",
+        "label": "Pasta and vegetables",
+        "tags": [],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "meal-ideas-2",
+        "category": "meal-ideas",
+        "label": "Picnic sandwiches",
+        "tags": [],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "meal-ideas-3",
+        "category": "meal-ideas",
+        "label": "Shared breakfast",
+        "tags": [],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      },
+      {
+        "id": "meal-ideas-4",
+        "category": "meal-ideas",
+        "label": "Easy first-night meal",
+        "tags": [],
+        "quantity": "As needed",
+        "assignee": "",
+        "note": ""
+      }
+    ]
+  },
+  "packing": {
+    "tags": [
+      "beach",
+      "road-trip"
+    ],
+    "selected": [
+      "meal-ideas-4"
+    ],
+    "excluded": [
+      "outdoor-3"
+    ],
+    "morning": [
+      "essentials-1",
+      "essentials-2",
+      "essentials-3",
+      "health-1"
+    ],
+    "note": "The sample is fictional. Choose items for your own group, weather and accommodation."
+  },
+  "plan": {
+    "summary": "Choose a comfortable base, leave one flexible day, and keep the first evening simple. Nothing in this example is booked or researched as a real destination.",
+    "status": [
+      {
+        "label": "Stay",
+        "value": "Comparing options",
+        "note": "See the rental gallery and full comparison table."
+      },
+      {
+        "label": "Travel",
+        "value": "Draft route",
+        "note": "Confirm actual driving time independently."
+      },
+      {
+        "label": "Meals",
+        "value": "First-night plan chosen",
+        "note": "One simple shared meal; other meals remain flexible."
+      }
+    ],
+    "days": [
+      {
+        "date": "2034-09-07",
+        "theme": "Arrive gently",
+        "morning": "Pack and check the morning-of list.",
+        "afternoon": "Travel, collect groceries and settle in.",
+        "evening": "Simple shared dinner.",
+        "backup": "Bring an easy no-preparation meal if arrival is late."
+      },
+      {
+        "date": "2034-09-08",
+        "theme": "One outing, plenty of space",
+        "morning": "A short waterfront walk in the invented itinerary.",
+        "afternoon": "Free time and reading.",
+        "evening": "Choose dinner together.",
+        "backup": "Indoor games if the weather changes."
+      },
+      {
+        "date": "2034-09-09",
+        "theme": "Flexible day",
+        "morning": "Slow breakfast.",
+        "afternoon": "Choose from the activity shortlist.",
+        "evening": "Pack nonessential items.",
+        "backup": "Stay at the house and enjoy the space."
+      },
+      {
+        "date": "2034-09-10",
+        "theme": "Leave well",
+        "morning": "Breakfast, final packing and tidy up.",
+        "afternoon": "Return journey.",
+        "evening": "Save notes for the next trip.",
+        "backup": "Allow extra time for traffic."
+      }
+    ],
+    "decisions": [
+      {
+        "question": "Which accommodation should move to the final shortlist?",
+        "urgency": "soon",
+        "owner": "Trip organiser",
+        "due": "2034-07-20",
+        "status": "Open",
+        "options": [
+          "Blue Shutter Cottage",
+          "Fern Room Cabin"
+        ],
+        "note": "Verify availability, full price and cancellation before making a real booking."
+      },
+      {
+        "question": "Which optional outing suits the group?",
+        "urgency": "before-trip",
+        "owner": "Everyone",
+        "due": "2034-08-25",
+        "status": "Collect preferences",
+        "options": [
+          "Short walk",
+          "Indoor activity",
+          "Unplanned afternoon"
+        ],
+        "note": "Keep one day flexible."
+      }
+    ],
+    "activities": [
+      {
+        "name": "Short waterfront walk",
+        "description": "A sample low-commitment outing in a made-up destination.",
+        "constraints": "Check access, weather and opening conditions for any real replacement.",
+        "source": ""
+      },
+      {
+        "name": "Games and reading at the house",
+        "description": "An option that needs no booking.",
+        "constraints": "Bring a small selection of games.",
+        "source": ""
+      }
+    ],
+    "preferences": [
+      {
+        "question": "How much should be planned each day?",
+        "answer": "One anchor activity and flexible time.",
+        "owner": "Example group"
+      },
+      {
+        "question": "What matters most in the accommodation?",
+        "answer": "Comfortable shared space and clear sleeping arrangements.",
+        "owner": "Example group"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Demonstration provenance",
+        "url": "",
+        "checked": "2034-07-12",
+        "note": "All people, locations, prices, properties and decisions are independently invented. Images are AI illustrations."
+      }
+    ],
+    "notes": [
+      "This kit organises research; it does not book travel or verify current availability."
+    ],
+    "review": {
+      "worked": [],
+      "change": [],
+      "carryForward": []
+    }
+  },
+  "rentals": {
+    "summary": "Compare four invented options using the same practical criteria. Two are on the shortlist, one needs more information, and one has been ruled out.",
+    "criteria": [
+      "Comfortable shared space",
+      "Useful outdoor table",
+      "Clear sleeping arrangements",
+      "Complete quote before committing"
+    ],
+    "splitCounts": [
+      2,
+      3
+    ],
+    "houses": [
+      {
+        "id": "blue-shutter",
+        "name": "Blue Shutter Cottage",
+        "tier": "shortlist",
+        "rank": 1,
+        "rationale": "The sample favourite: a sheltered table and a simple layout. The gallery shows illustrative spaces, not listing evidence.",
+        "platform": "Fictional example",
+        "url": "",
+        "town": "Cedar Bay (invented)",
+        "drive": "About 75 minutes from North Quay (invented)",
+        "sleeps": "6",
+        "bedrooms": "3",
+        "bathrooms": "2",
+        "squareFeet": "Not listed",
+        "acreage": "Not listed",
+        "theater": "unknown",
+        "waterfront": "No direct access",
+        "pool": "Not listed",
+        "hotTub": "unknown",
+        "gameRoom": "no",
+        "sauna": "unknown",
+        "amenities": [
+          "Sheltered outdoor table",
+          "Reading corner"
+        ],
+        "quote": {
+          "kind": "exact",
+          "currency": "USD",
+          "scope": "Invented sample totals; fee and tax coverage must be checked for real quotes.",
+          "stayStart": "2034-09-07",
+          "stayEnd": "2034-09-10",
+          "checked": "2034-07-12",
+          "note": "Fictional data for demonstrating the layout.",
+          "amount": "1843.25"
+        },
+        "rating": "No real reviews",
+        "cancellation": "Demonstration only; check the current host policy",
+        "availability": "unknown",
+        "notes": "This is not a real property or recommendation.",
+        "beds": "Two double rooms and one twin room in this invented example.",
+        "childPracticalities": "Ask about steps, gates and sleeping arrangements if relevant.",
+        "photos": [
+          {
+            "src": "images/fictional-cottage.png",
+            "alt": "AI illustration of a fictional holiday space",
+            "credit": "Generated with ChatGPT; not a photograph of a listing."
+          },
+          {
+            "src": "images/fictional-cabin.png",
+            "alt": "AI illustration of a fictional holiday space",
+            "credit": "Generated with ChatGPT; not a photograph of a listing."
+          }
+        ]
+      },
+      {
+        "id": "fern-room",
+        "name": "Fern Room Cabin",
+        "tier": "shortlist",
+        "rank": 2,
+        "rationale": "An inviting alternative when indoor space matters. The price is a range, so it has no precise household split.",
+        "platform": "Fictional example",
+        "url": "",
+        "town": "Cedar Bay (invented)",
+        "drive": "About 75 minutes from North Quay (invented)",
+        "sleeps": "6",
+        "bedrooms": "3",
+        "bathrooms": "2",
+        "squareFeet": "Not listed",
+        "acreage": "Not listed",
+        "theater": "unknown",
+        "waterfront": "No direct access",
+        "pool": "Not listed",
+        "hotTub": "yes",
+        "gameRoom": "no",
+        "sauna": "unknown",
+        "amenities": [
+          "Sheltered outdoor table",
+          "Reading corner"
+        ],
+        "quote": {
+          "kind": "range",
+          "currency": "USD",
+          "scope": "Invented sample totals; fee and tax coverage must be checked for real quotes.",
+          "stayStart": "2034-09-07",
+          "stayEnd": "2034-09-10",
+          "checked": "2034-07-12",
+          "note": "Fictional data for demonstrating the layout.",
+          "min": "1600.00",
+          "max": "1950.00"
+        },
+        "rating": "No real reviews",
+        "cancellation": "Demonstration only; check the current host policy",
+        "availability": "unknown",
+        "notes": "This is not a real property or recommendation.",
+        "beds": "Two double rooms and one twin room in this invented example.",
+        "childPracticalities": "Ask about steps, gates and sleeping arrangements if relevant.",
+        "photos": [
+          {
+            "src": "images/fictional-cabin.png",
+            "alt": "AI illustration of a fictional holiday space",
+            "credit": "Generated with ChatGPT; not a photograph of a listing."
+          }
+        ]
+      },
+      {
+        "id": "orchard-house",
+        "name": "Orchard House",
+        "tier": "alternative",
+        "rank": 3,
+        "rationale": "Keep on the list while waiting for a complete quote. No photos are available, so the page uses a designed placeholder.",
+        "platform": "Fictional example",
+        "url": "",
+        "town": "Cedar Bay (invented)",
+        "drive": "About 75 minutes from North Quay (invented)",
+        "sleeps": "6",
+        "bedrooms": "3",
+        "bathrooms": "2",
+        "squareFeet": "Not listed",
+        "acreage": "Not listed",
+        "theater": "unknown",
+        "waterfront": "No direct access",
+        "pool": "Not listed",
+        "hotTub": "unknown",
+        "gameRoom": "no",
+        "sauna": "unknown",
+        "amenities": [
+          "Sheltered outdoor table",
+          "Reading corner"
+        ],
+        "quote": {
+          "kind": "unknown",
+          "currency": "USD",
+          "scope": "Invented sample totals; fee and tax coverage must be checked for real quotes.",
+          "stayStart": "2034-09-07",
+          "stayEnd": "2034-09-10",
+          "checked": "2034-07-12",
+          "note": "Fictional data for demonstrating the layout."
+        },
+        "rating": "No real reviews",
+        "cancellation": "Demonstration only; check the current host policy",
+        "availability": "unknown",
+        "notes": "This is not a real property or recommendation.",
+        "beds": "Two double rooms and one twin room in this invented example.",
+        "childPracticalities": "Ask about steps, gates and sleeping arrangements if relevant.",
+        "photos": []
+      },
+      {
+        "id": "tiny-lookout",
+        "name": "Tiny Lookout",
+        "tier": "rejected",
+        "rank": 4,
+        "rationale": "Ruled out in this fictional comparison because its sleeping layout did not fit the group.",
+        "platform": "Fictional example",
+        "url": "",
+        "town": "Cedar Bay (invented)",
+        "drive": "About 75 minutes from North Quay (invented)",
+        "sleeps": "2",
+        "bedrooms": "1",
+        "bathrooms": "1",
+        "squareFeet": "Not listed",
+        "acreage": "Not listed",
+        "theater": "unknown",
+        "waterfront": "No direct access",
+        "pool": "Not listed",
+        "hotTub": "unknown",
+        "gameRoom": "no",
+        "sauna": "unknown",
+        "amenities": [
+          "Sheltered outdoor table",
+          "Reading corner"
+        ],
+        "quote": {
+          "kind": "exact",
+          "currency": "USD",
+          "scope": "Invented sample totals; fee and tax coverage must be checked for real quotes.",
+          "stayStart": "2034-09-07",
+          "stayEnd": "2034-09-10",
+          "checked": "2034-07-12",
+          "note": "Fictional data for demonstrating the layout.",
+          "amount": "1350.00"
+        },
+        "rating": "No real reviews",
+        "cancellation": "Demonstration only; check the current host policy",
+        "availability": "unknown",
+        "notes": "This is not a real property or recommendation.",
+        "beds": "Two double rooms and one twin room in this invented example.",
+        "childPracticalities": "Ask about steps, gates and sleeping arrangements if relevant.",
+        "photos": []
+      }
+    ],
+    "hero": {
+      "src": "images/fictional-cottage.png",
+      "alt": "An invented coastal cottage with blue shutters",
+      "credit": "AI-generated illustration, not a real listing"
+    }
+  }
+}

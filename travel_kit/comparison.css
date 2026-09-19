@@ -1,0 +1,56 @@
+
+:root{--night:#121814;--card:#1c2420;--card2:#232d27;--ink:#ece5d8;--dim:#a8b3a6;--ember:#e0783f;--line:#2e3a32}
+*{box-sizing:border-box}
+body{margin:0;background:var(--night);color:var(--ink);font:16px/1.55 -apple-system,'Helvetica Neue',Arial,sans-serif}
+h1,h2,.index,.pricebox strong{font-family:Georgia,serif}
+a{color:var(--ember)}
+.hero{position:relative;min-height:56vh;display:flex;align-items:flex-end;background:var(--night)}
+.hero::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,24,20,.35) 0%,rgba(18,24,20,.15) 35%,rgba(18,24,20,.99) 100%)}
+.hero-inner{position:relative;z-index:1;max-width:1060px;margin:0 auto;padding:5rem 1.25rem 2.2rem;width:100%}
+.eyebrow{color:var(--ember);letter-spacing:.18em;text-transform:uppercase;font-size:.75rem;margin:0 0 .5rem}
+h1{font-size:clamp(2.1rem,5.5vw,3.6rem);font-weight:700;line-height:1.05;margin:0 0 .6rem;max-width:18ch;text-shadow:0 2px 12px rgba(0,0,0,.5)}
+.dek{color:#cfd6cc;max-width:56ch;margin:0;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.nav{position:sticky;top:0;z-index:5;background:rgba(18,24,20,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav-inner{max-width:1060px;margin:0 auto;display:flex;gap:.25rem;overflow-x:auto;padding:.5rem 1.25rem}
+.nav a{flex:none;color:var(--dim);text-decoration:none;font-size:.82rem;padding:.35rem .7rem;border-radius:99px;border:1px solid transparent}
+.nav a b{color:var(--ember);font-family:Georgia,serif;margin-right:.3rem}
+.nav a:hover{border-color:var(--line);color:var(--ink)}
+main{max-width:1060px;margin:0 auto;padding:1.5rem 1.25rem 4rem}
+.house{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.4rem 1.4rem 1.2rem;margin:1.6rem 0}
+.house-head{display:flex;gap:1rem;align-items:baseline;flex-wrap:wrap}
+.index{font-size:2.6rem;font-weight:700;color:var(--ember);line-height:1}
+.house-head h2{font-size:clamp(1.3rem,2.6vw,1.75rem);font-weight:600;margin:0}
+.where{margin:.1rem 0 0;color:var(--dim);font-size:.9rem}
+.pricebox{margin-left:auto;text-align:right}
+.pricebox strong{font-size:1.5rem;font-weight:700}
+.pricebox span{display:block;color:var(--dim);font-size:.78rem}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;margin:.8rem 0 .2rem}
+.chip{background:var(--card2);border:1px solid var(--line);border-radius:99px;padding:.25rem .75rem;font-size:.82rem}
+.chip em{font-style:normal;color:var(--dim);margin-right:.4rem;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em}
+.take{margin:.7rem 0 1rem;max-width:70ch}
+.strip{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;border-radius:10px;padding-bottom:6px}
+.strip a{flex:none;scroll-snap-align:start}
+.strip img{height:290px;width:auto;border-radius:10px;background:#0c100e;display:block;transition:transform .18s ease}
+.strip a:hover img{transform:scale(1.015)}
+.strip.small img{height:140px}
+.facts{display:flex;flex-wrap:wrap;gap:.4rem 1.6rem;margin:.9rem 0 .3rem}
+.fact span{display:block;color:var(--dim);font-size:.68rem;text-transform:uppercase;letter-spacing:.08em}
+.fact{font-size:.88rem}
+.beds{color:var(--dim);font-size:.85rem;margin:.5rem 0}
+.listing{display:inline-block;margin-top:.3rem;font-size:.9rem;text-decoration:none;border-bottom:1px solid var(--ember)}
+.section-head{margin:3rem 0 .4rem;font-family:Georgia,serif;font-size:1.4rem}
+.section-note{color:var(--dim);margin:0 0 1rem;max-width:65ch;font-size:.92rem}
+.also{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:.6rem 0;padding:.7rem 1rem}
+.also summary{cursor:pointer;list-style:none;display:grid;gap:.15rem}
+.also summary::-webkit-details-marker{display:none}
+.also-name{font-weight:600}
+.also-meta{color:var(--dim);font-size:.82rem}
+.also-why{font-size:.86rem;color:var(--ink);opacity:.85}
+.also[open]{background:var(--card2)}
+.also .strip{margin-top:.7rem}
+.outs{color:var(--dim);font-size:.85rem;padding-left:1.2rem}
+.outs li{margin:.3rem 0}
+.foot{color:var(--dim);font-size:.78rem;margin-top:3rem;border-top:1px solid var(--line);padding-top:1rem}
+:focus-visible{outline:2px solid var(--ember);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.strip img{transition:none}}
+@media (max-width:640px){.strip img{height:210px}.pricebox{margin-left:0;text-align:left}.hero{min-height:44vh}}
