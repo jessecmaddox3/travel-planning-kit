@@ -121,7 +121,7 @@ rows = [
     ("sec", "Service"),
     ("hours", "Sunday public hours per branch", 5, 5, 5, "hours", "The ask: noon to 5 p.m.", NUM1, True),
     ("paid", "Paid hours per staff shift", 5.5, 6, 6.5, "hours", "Open hours plus time to open and close the building.", NUM1, False),
-    ("sundays", "Sundays open per year", 50, 50, 51, "Sundays", "52 less Easter and holidays that fall on Sunday.", NUM, False),
+    ("sundays", "Sundays open per year", 50, 50, 52, "Sundays", "An average year has 52.1 Sundays. Less Easter and the occasional holiday that falls on a Sunday. Some years have 53.", NUM, False),
     ("sec", "Staff on duty at each branch on a Sunday"),
     ("small", "Small branch", 3, 3, 4, "people", "Campaign estimate. Replace with DCPL's minimum staffing by branch.", NUM, True),
     ("medium", "Medium branch", 3, 4, 5, "people", "Campaign estimate.", NUM, True),
@@ -165,6 +165,8 @@ rows = [
     ("infl", "Price growth, 2016 to 2026", None, 1.35, None, "ratio", "Approximate consumer price change. Edit if you prefer a wage index.", MULT, False),
     ("uc", "Union City, CA: yearly payment to county library", None, 311056, None, "$ per year", "Alameda County board agenda, city-funded extra hours. Date about 2012; not adjusted for inflation.", USD, False),
     ("uch", "Union City, CA: weekly hours funded", None, 22, None, "hours per week", "Same source.", NUM, False),
+    ("sec", "Sensitivity input"),
+    ("ot", "Premium if existing full-time staff work Sundays as overtime", None, 0.5, None, "% of wage", "Time and a half. Used on the Summary sheet to show the cost if Sunday shifts are filled by current staff on overtime instead of new part-time staff.", PCT, False),
     ("sec", "Inputs for the Alternatives sheet"),
     ("pilot", "Pilot: number of branches", None, 6, None, "branches", "A typical counter-offer.", NUM, False),
     ("eve", "Evening alternative: hours added per branch per week", None, 6, None, "hours", "For example Thursday and Friday open until 8 instead of 5.", NUM, False),
@@ -267,8 +269,9 @@ SEC_BLDG = (f"{a('sundays')}*({N_BR}*({a('paid')}*{a('guards')}*{a('wguard')}+{a
 
 # -------------------------------------------------------------- Benchmarks
 title(ws_k, "Cross-checks against outside figures",
-      "Five independent ways to estimate the same thing. None uses the staffing assumptions in this "
-      "model, so agreement between them and the base case is real evidence.")
+      "Five other ways to estimate the same thing. None uses this model's staffing assumptions, though "
+      "checks 1 and 2 borrow its security and building costs. The base case sits below all of them, "
+      "which is why the campaign quotes a range.")
 ws_k.merge_cells("A2:C2")
 header_row(ws_k, 4, ["Check", "Value", "How it is worked out"])
 K = {}
@@ -289,24 +292,26 @@ krow(8, "m3", "Add security and building costs from this model", f"={SEC_BLDG}",
 krow(9, "m4", "Estimate", "=B7+B8", USD, "Likely an undercount: Montgomery also used existing staff on Sundays.", bold=True)
 section(ws_k, 10, "2. DCPL's own staffing cost for an average open hour", 3)
 krow(11, "s1", "Public-service staffing cost per branch-hour", f"=({a('info')}+{a('circ')})/({WK_HRS}*52)", USD2, "Information Services plus Circulation budgets, divided by all open hours in a year.", link=True)
-krow(12, "s2", "Applied to the Sunday hours", f"=B11*{a('hours')}*{N_BR}*{a('sundays')}", USD, "Assumes Sunday is staffed like an average hour.")
+krow(12, "s2", "Applied to the Sunday hours", f"=B11*{a('hours')}*{N_BR}*{a('sundays')}", USD, "Assumes Sunday is staffed like an average hour. An average hour includes programs and behind-the-scenes work, so this may overstate Sunday staffing.")
 krow(13, "s3", "Add security and building costs from this model", "=B8", USD, "Same as above.")
-krow(14, "s4", "Estimate", "=B12+B13", USD, "", bold=True)
-section(ws_k, 15, "3. Ceiling: DCPL's whole budget per open hour", 3)
-krow(16, "c1", "Whole library budget per branch-hour", f"={a('libbud')}/({WK_HRS}*52)", USD2, "Includes books, technology, administration and maintenance, most of which Sunday hours would not add to.", link=True)
-krow(17, "c2", "Estimate (upper bound)", f"=B16*{a('hours')}*{N_BR}*{a('sundays')}", USD, "No realistic Sunday plan should cost more than this.", bold=True)
-section(ws_k, 18, "4. DeKalb's 2016 restoration of night and weekend hours", 3)
-krow(19, "d1", "Cost per added branch-hour, 2016 dollars", f"={a('dk16')}/({a('dk16h')}*52)", USD2, "Included 36 full-time hires that also filled earlier staffing gaps.", link=True)
-krow(20, "d2", "In today's dollars", f"=B19*{a('infl')}", USD2, "")
-krow(21, "d3", "Estimate (upper bound)", f"=B20*{a('hours')}*{N_BR}*{a('sundays')}", USD, "", bold=True)
-section(ws_k, 22, "5. Union City, California: what a city pays its county library for extra hours", 3)
-krow(23, "u1", "Payment per weekly hour, per year", f"={a('uc')}/{a('uch')}", USD, "About 2012 dollars, not adjusted. Context only.", link=True)
-krow(24, "u2", "Estimate", f"=B23*{a('hours')}*{N_BR}", USD, "", bold=True)
-section(ws_k, 25, "How this model compares", 3)
-krow(26, "base", "This model, base case", "=Summary!C6", USD, "From the Summary sheet.", bold=True, link=True)
-krow(27, "r1", "Base case compared with check 1", "=IF(B9=0,0,B26/B9)", MULT, "1.00x means identical.")
-krow(28, "r2", "Base case compared with check 2", "=IF(B14=0,0,B26/B14)", MULT, "")
-krow(29, "r3", "Base case as a share of the ceiling (check 3)", "=IF(B17=0,0,B26/B17)", PCT, "")
+krow(14, "s4", "Estimate, no Sunday differential", "=B12+B13", USD, "", bold=True)
+krow(15, "s5", "Estimate, with this model's Sunday differential", f"=B12*(1+{a('diff')})+B13", USD, "The same check if Sunday staff are paid the differential. Top of the planning range.", bold=True)
+section(ws_k, 16, "3. Practical ceiling: DCPL's whole budget per open hour", 3)
+krow(17, "c1", "Whole library budget per branch-hour", f"={a('libbud')}/({WK_HRS}*52)", USD2, "Includes books, technology, administration and maintenance, most of which Sunday hours would not add to.", link=True)
+krow(18, "c2", "Estimate (practical ceiling)", f"=B17*{a('hours')}*{N_BR}*{a('sundays')}", USD, "A realistic Sunday plan should not cost more than this. The High case on the Summary sheet does, because it stacks every pessimistic assumption.", bold=True)
+section(ws_k, 19, "4. DeKalb's 2016 restoration of night and weekend hours", 3)
+krow(20, "d1", "Cost per added branch-hour, 2016 dollars", f"={a('dk16')}/({a('dk16h')}*52)", USD2, "Included 36 full-time hires that also filled earlier staffing gaps.", link=True)
+krow(21, "d2", "In today's dollars", f"=B20*{a('infl')}", USD2, "")
+krow(22, "d3", "Estimate (upper bound)", f"=B21*{a('hours')}*{N_BR}*{a('sundays')}", USD, "", bold=True)
+section(ws_k, 23, "5. Union City, California: what a city pays its county library for extra hours", 3)
+krow(24, "u1", "Payment per weekly hour, per year", f"={a('uc')}/{a('uch')}", USD, "About 2012 dollars, not adjusted. Context only.", link=True)
+krow(25, "u2", "Estimate", f"=B24*{a('hours')}*{N_BR}", USD, "", bold=True)
+section(ws_k, 26, "How this model compares", 3)
+krow(27, "base", "This model, base case", "=Summary!C6", USD, "From the Summary sheet.", bold=True, link=True)
+krow(28, "r1", "Check 1 compared with the base case", "=IF(B27=0,0,B9/B27)", MULT, "Above 1.00x means the outside check is higher than the base case.")
+krow(29, "r2", "Check 2 (no differential) compared with the base case", "=IF(B27=0,0,B14/B27)", MULT, "")
+krow(30, "r3", "Check 2 (with differential) compared with the base case", "=IF(B27=0,0,B15/B27)", MULT, "")
+krow(31, "r4", "Base case as a share of the practical ceiling", "=IF(B18=0,0,B27/B18)", PCT, "")
 for col, w in zip("ABC", (58, 16, 88)):
     ws_k.column_dimensions[col].width = w
 
@@ -351,7 +356,8 @@ for col, w in zip("ABC", (62, 16, 84)):
 title(ws_s, "Sunday 12 to 5 at every DeKalb library: what it costs",
       "Estimates by the campaign, not by DeKalb County Public Library. Change the blue cells on the "
       "Assumptions sheet and everything here recalculates. Low and High put every assumption at its "
-      "cheapest or dearest at once, so the true figure is unlikely to sit at either end.")
+      "cheapest or dearest at once, so the true figure is unlikely to sit at either end. The planning "
+      "range the campaign quotes is at the bottom of this sheet.")
 ws_s.merge_cells("A2:E2")
 header_row(ws_s, 4, ["", "Low", "Base", "High", "What it means"])
 
@@ -398,10 +404,17 @@ srow(30, "Share in FY2026", [None, f"={a('libbud')}/{a('gf')}", None], PCT2, "",
 srow(31, "Library budget today if the FY2019 share had held", [None, f"=C29*{a('gf')}", None], USD, "")
 srow(32, "Gap to the actual budget", [None, f"=C31-{a('libbud')}", None], USD, "")
 srow(33, "Sunday hours (base) as a share of that gap", [None, "=IF(C32=0,0,C6/C32)", None], PCT, "")
-section(ws_s, 34, "Cross-checks (details on the Benchmarks sheet)", 5)
-srow(35, "Montgomery County, MD staffing benchmark", [None, "=Benchmarks!B9", None], USD, "Independent of this model's staffing assumptions.", link=True)
-srow(36, "DCPL's own staffing cost per open hour", [None, "=Benchmarks!B14", None], USD, "Independent of this model's staffing assumptions.", link=True)
-srow(37, "Ceiling: DCPL's whole budget per open hour", [None, "=Benchmarks!B17", None], USD, "Upper bound.", link=True)
+section(ws_s, 34, "Planning range (details on the Benchmarks sheet)", 5)
+srow(35, "Base case: new part-time staff, 25% Sunday differential", [None, "=C6", None], USD, "Bottom of the planning range.", bold=True)
+srow(36, "Base case if current staff work Sundays at time and a half", [None, f"=(C6-({SEC_BLDG}))*(1+{a('ot')})/(1+{a('diff')})+({SEC_BLDG})", None], USD, "Staff cost rescaled to the overtime premium on the Assumptions sheet.")
+srow(37, "Outside check: Montgomery County, MD", [None, "=Benchmarks!B9", None], USD, "Staff cost from another system, plus this model's security and building costs.", link=True)
+srow(38, "Outside check: DCPL's own staffing cost per open hour", [None, "=Benchmarks!B14", None], USD, "No Sunday differential.", link=True)
+srow(39, "Same check with the Sunday differential", [None, "=Benchmarks!B15", None], USD, "Top of the planning range.", bold=True, link=True)
+srow(40, "Practical ceiling: DCPL's whole budget per open hour", [None, "=Benchmarks!B18", None], USD, "The High case above exceeds this because it stacks every pessimistic assumption.", link=True)
+srow(41, "Top of the range, per resident per year", [None, f"=C39/{a('pop')}", None], USD2, "")
+srow(42, "Top of the range, share of the General Fund", [None, f"=C39/{a('gf')}", None], PCT2, "")
+srow(43, "Top of the range, share of the library's budget", [None, f"=C39/{a('libbud')}", None], PCT, "")
+srow(44, "Top of the range, first-year cost", [None, f"=C39/{a('sundays')}*C11+{a('startup')}", None], USD, "")
 for col, w in zip("ABCDE", (56, 15, 15, 15, 70)):
     ws_s.column_dimensions[col].width = w
 ws_s.freeze_panes = "B5"

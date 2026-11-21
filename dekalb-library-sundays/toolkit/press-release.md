@@ -11,7 +11,7 @@ Fill in the bracketed parts. Do not send until the facts in brackets are true. Q
 
 ## DeKalb residents ask county to open all 23 libraries on Sundays
 
-*Group estimates the cost at $1.65 million a year, about $2.15 per resident*
+*Group estimates the cost at $1.65 to $2.1 million a year, between $2 and $3 per resident*
 
 DECATUR, Ga. — A group of DeKalb County residents today launched Open Sundays DeKalb, a campaign asking the county to open every public library on Sundays from noon to 5 p.m.
 
@@ -19,9 +19,9 @@ All 23 DeKalb County Public Library locations are closed every Sunday. Most are 
 
 "[Real quote from an organiser: one or two sentences on why.]" said [name], a [neighbourhood] resident and organiser.
 
-The group published a cost estimate built from the county's adopted FY2026 budget, the library's posted hours and county pay scales. It puts the cost of Sunday service at every branch at about $1.65 million a year, including a Sunday pay differential and a security guard at each branch. That equals about 0.27% of the county's General Fund.
+The group published a cost estimate built from the county's adopted FY2026 budget, the library's posted hours and county pay scales. It puts the cost of Sunday service at every branch at between $1.65 million and $2.1 million a year, including a Sunday pay differential and a security guard at each branch. That is about a third of one percent of the county's General Fund.
 
-Gwinnett County opens all of its branches on Sundays from noon to 5 p.m.
+Gwinnett County opens all 15 of its branches on Sundays from noon to 5 p.m.
 
 The campaign is asking the Board of Commissioners to fund Sunday hours in the FY2027 budget, which the county adopts by March 1, and asking the Library Board of Trustees to adopt Sunday hours as policy.
 
@@ -44,6 +44,6 @@ Decaturish · Rough Draft Atlanta · The Champion Newspaper · On Common Ground 
 
 ### What makes it a story
 - A picture: children reading on the steps of a locked library at noon on a Sunday.
-- A number: $2.15 per resident.
+- A number: between $2 and $3 per resident.
 - A comparison: Gwinnett is open, DeKalb is closed.
 - A date: the budget vote.

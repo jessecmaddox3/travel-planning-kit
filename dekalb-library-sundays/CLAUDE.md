@@ -11,12 +11,14 @@ A resident campaign to open all 23 DeKalb County, Georgia public libraries on Su
 - Every number in a public file must appear in `research/01-facts-and-sources.md` with a source and a confidence label. Add it there first.
 - Cost figures are the campaign's estimates until DeKalb County Public Library supplies its own. Say "we estimate". When the library's numbers arrive, put them in the cost model and update every file that quotes the old ones.
 - Never invent quotes, endorsements, survey results, signature counts or personal stories. Templates use brackets for anything not yet true.
+- Do not write that the campaign "has asked", "is counting" or "has surveyed" until it has. Say what it plans to do.
+- The campaign can ask for fair treatment of library staff; it cannot promise it. Staffing and security plans are the library's to design.
 - People named in these files are real. Describe them only from public sources, and keep inference in `private/`, labelled as inference.
 
 ## Cost model
 - `cost-model/build_cost_model.py` writes `cost-model/sunday-hours-cost-model.xlsx`. Inputs and the branch list live in the script; every result in the workbook is a formula.
 - After changing inputs: run the script, recalculate, then update the figures quoted in `README.md`, `the-case-for-sundays.md`, `cost-model/README.md`, `research/01-facts-and-sources.md` and the toolkit. Search for the old number to find them all.
-- Base case as of November 21, 2026: $1,648,950 a year; $2.15 per resident; 0.27% of the General Fund; 115 added hours a week (9.8%); first year $627,664 with a September 12, 2027 opening.
+- As of November 21, 2026: base case $1,648,950 a year. The public figure is a planning range, **$1.65 to $2.1 million** (top $2,135,809), because every outside check comes out above the base case. Between $2 and $3 per resident; about a third of one percent of the General Fund; 115 added hours a week (9.8%); first year $627,664 to $783,459 with a September 12, 2027 opening.
 
 ## Tone
 - For the library, never against it. No criticism of library staff or of named officials in public material.

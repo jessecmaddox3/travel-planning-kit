@@ -16,7 +16,7 @@ I live in ______ and my library is the ______ branch.
 
 [One or two sentences in your own words: why Sunday matters to you.]
 
-Every DeKalb County library is closed on Sunday. I am asking you to fund Sunday hours, noon to 5, at every branch in the 2027 budget. The estimated cost is about $1.65 million a year, around $2.15 per resident, and Gwinnett County already does it at every branch.
+Every DeKalb County library is closed on Sunday. I am asking you to fund Sunday hours, noon to 5, at every branch in the 2027 budget. The campaign's estimate is $1.65 to $2.1 million a year, between $2 and $3 per resident, and Gwinnett County already does it at every branch.
 
 Will you support it? I would be glad to hear where you stand.
 

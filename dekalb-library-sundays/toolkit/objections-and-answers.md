@@ -7,26 +7,26 @@ The questions the campaign will be asked, who tends to ask them, and an honest a
 ### "We just raised the tax rate. There is no money for something new."
 *Commissioners, the budget office.*
 
-$1.65 million is 0.27% of the General Fund. The library's share of that fund has fallen from 5.5% to 4.7% since 2019 and its budget dropped $910,045 this year, so this would return a third of the share the library has lost. Opening in September 2027 needs about $630,000 in the first year.
+The estimate is $1.65 to $2.1 million, about a third of one percent of the General Fund. General Fund revenue grew $48 million in FY2026, and this would take under 5% of one year's growth. The library's budget has grown 44% since 2019 while the General Fund grew 70%, so its share fell from 5.5% to 4.7%; Sunday hours would use less than half of what that lost share is worth. Opening in September 2027 needs about $630,000 to $780,000 in the first year.
 
-**Fair point within it:** it is a recurring cost, and the campaign should not suggest paying for it from reserves or one-time money.
+**Fair point within it:** it is a recurring cost that will rise with wages, and the campaign should not suggest paying for it from reserves or one-time money. The campaign is also not naming what the county should spend less on. Expect to be asked.
 
 ### "The library can't staff it. People don't want to work Sundays."
 *Library management, employees.*
 
-This is the objection that sank Sunday hours in Montgomery County, Maryland, and it deserves the most care. The proposal is new part-time Sunday positions, voluntary shifts and a 25% differential, with six months between a February vote and a September opening to hire. No current employee would be required to work Sundays.
+This is the objection that sank Sunday hours in Montgomery County, Maryland, and it deserves the most care. The campaign asks the county to fund Sunday work as voluntary and premium-paid, mostly through new part-time positions, with six months between a February vote and a September opening to hire. Whether current employees are ever scheduled on Sundays is the library's decision, not the campaign's. Say what we are asking for; do not promise what we cannot deliver.
 
-**Fair point within it:** if the library already has vacancies it cannot fill, Sunday hiring competes with that. Ask the library for its vacancy rate and build the plan with them.
+**Fair points within it:** if the library already has vacancies it cannot fill, Sunday hiring competes with that. Leading a shift takes an experienced librarian, and nobody hires two dozen of those for six hours a week, so in practice current librarians would rotate, on overtime or with time off in exchange. At time and a half the estimate rises to about $1.9 million. Small branches need a rule for what happens when one of three people is out. Ask the library for its vacancy rate and build the plan with them and their staff.
 
 ### "Is it safe? There was a shooting at Decatur."
 *Residents, staff, commissioners.*
 
-The estimate pays for a guard at every open branch and the police officer already posted at Decatur, about $240,000 a year. Sunday should meet the same safety standard as any other day, and the campaign will not ask for Sunday service on thinner security.
+The estimate pays for a guard at every open branch and the police officer already posted at Decatur, about $240,000 a year. Sunday should run under the same security plan as any other day, including the screening at Decatur, and the campaign will not ask for Sunday service on thinner security. What the right standard is at each branch is for the library and its staff to say. If their plan costs more, the estimate rises.
 
 ### "Nobody will come."
 *Sceptics on the commission and in the budget office.*
 
-Unknown, and the campaign says so. Evidence from other places points both ways. That is why volunteers are counting people who arrive at locked doors on Sundays and why the survey asks residents directly. If Sundays drew about 60% of the library's average hourly traffic, they would cost less per visit than the library does today. Ask the library to publish Sunday visits every quarter.
+Unknown, and the campaign says so. Evidence from other places points both ways. That is why the campaign's plan includes counting people who arrive at locked doors on Sundays and a survey that asks residents directly. Sundays would need about 61% of the library's average hourly traffic at the base estimate, and about 79% at the top of the range, to cost no more per visit than the library does today. Be ready for the examples that cut the other way: Montgomery County, Maryland reduced Sunday service in 2026, Fulton appears closed on Sundays, and Cobb opens only its regional libraries. Ask the library to publish Sunday visits every quarter.
 
 ### "People will just shift from Saturday to Sunday."
 *Budget analysts.*
@@ -36,7 +36,7 @@ Some will, and that is a real limit on the gain. The people who cannot come on S
 ### "Start with a pilot at a few branches."
 *Commissioners looking for a cheaper yes.*
 
-A six-branch pilot costs about $430,000 and leaves 17 branches closed. It makes the county choose which neighbourhoods get Sunday service, and a pilot's branches become the argument for and against everyone else's. The campaign's position is every branch, opening on the same day.
+A six-branch pilot costs about $430,000 at the base estimate and leaves 17 branches closed. It makes the county choose which neighbourhoods get Sunday service, and a pilot's branches become the argument for and against everyone else's. The campaign's position is every branch, opening on the same day.
 
 **Fair point within it:** a pilot would produce real demand data. The campaign's answer is to measure from day one at every branch instead.
 
@@ -73,7 +73,7 @@ Donations are good for programs and collections. Staffing a core service on gift
 ### "Your numbers aren't the library's numbers."
 *Anyone.*
 
-Correct. They are built from the county's budget, the library's hours and county pay postings, and checked against two outside benchmarks that land within 10%. The campaign has asked the library for its own figures and will use them.
+Correct. They are built from the county's budget, the library's hours and county pay postings, and checked against outside figures. Those checks come out 8% to 30% above our base estimate, which is why the campaign quotes a range of $1.65 to $2.1 million and not a single number. The campaign will use the library's own figures as soon as it has them.
 
 ### "Why should North DeKalb tell the county what to do?"
 *A fair challenge if the campaign's faces all come from one area.*

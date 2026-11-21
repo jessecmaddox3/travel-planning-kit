@@ -12,7 +12,7 @@ Every number the campaign uses, where it came from, and how sure we are. Read on
 | Fact | Detail | Confidence | Source |
 |---|---|---|---|
 | Sunday service | All 23 DeKalb County Public Library (DCPL) locations are closed every Sunday | Confirmed | [DCPL locations](https://dekalblibrary.org/locations) |
-| Usual schedule | Most branches: Mon–Wed 10–8, Thu–Sat 10–5 (51 hours a week). Four branches close at 5 on Wednesday too (48 hours). Decatur main: 60 hours | Confirmed | Same |
+| Usual schedule | Sixteen branches: Mon–Wed 10–8, Thu–Sat 10–5 (51 hours a week). Four close at 5 on Wednesday too (48 hours). Doraville and the Scottdale homework center: 50 hours. Decatur main: 60 hours | Confirmed | Same |
 | Weekend access | Seven open hours at most branches, all on Saturday | Confirmed | Same |
 | System-wide open hours | 1,168 branch-hours a week | Confirmed (summed from the page) | Same |
 | Locations | 1 central library and 22 branches | Confirmed | [DCPL statistics](https://dekalblibrary.org/about-us/statistics) |
@@ -28,9 +28,10 @@ Every number the campaign uses, where it came from, and how sure we are. Read on
 | Fact | Detail | Confidence | Source |
 |---|---|---|---|
 | Library budget, FY2026 | $28,455,984, all from the county General Fund | Confirmed | [FY2026 adopted budget](https://dekalbcountyga.gov/sites/default/files/2026-04/FY2026%20DeKalb%20County%20Annual%20Budget%20as%20adopted.pdf), p. 176 |
-| Change from FY2025 | Down $910,045 (3.1%) from $29,366,029. The department's own request was $28,298,982; commissioners added $157,002 | Confirmed | Same, pp. 18–27, 176 |
-| Library budget, FY2019 | $19,690,853. Growth to FY2025: 49.1% | Confirmed | Same, p. 2 table |
-| General Fund over the same years | $357.6M to $593.6M, up 66.0% | Confirmed | Same |
+| Change from FY2025 | Down $910,045 (3.1%) from $29,366,029. The requested figure in the budget book was $28,298,982, lower still; the adopted budget is $157,002 above it. Say "smaller than last year", not "cut by commissioners" | Confirmed | Same, pp. 18–27, 176 |
+| Library budget, FY2019 | $19,690,853. Growth to FY2025: 49.1%. Growth to FY2026: 44.5% | Confirmed | Same, p. 2 table |
+| General Fund over the same years | $357.6M (FY2019) to $593.6M (FY2025), up 66.0%; to $608.4M (FY2026), up 70.1% | Confirmed | Same |
+| General Fund revenue growth | $586.3M (FY2025) to $634.7M (FY2026), up $48.4M (8.3%) | Confirmed | Same, General Fund financials |
 | Library's share of the General Fund | 5.51% in FY2019; 4.68% in FY2026 | Confirmed, calculated | Same |
 | If the FY2019 share had held | The library would have about $33.5M today, $5.0M more than it does | Estimate | Cost model, Summary sheet |
 | General Fund, FY2026 | $608,352,708 in expenses; $105,164,358 in reserves | Confirmed | FY2026 adopted budget |
@@ -39,18 +40,33 @@ Every number the campaign uses, where it came from, and how sure we are. Read on
 
 ## What Sunday hours would cost
 
-| Fact | Detail | Confidence | Source |
-|---|---|---|---|
-| Every branch, noon to 5, every year | **About $1.65 million** | Estimate | [Cost model](../cost-model/) |
-| Independent checks | $1.78M (the library's own staffing cost per open hour) and $1.81M (Montgomery County, MD benchmark) | Estimate | Cost model, Benchmarks sheet |
-| Upper bound | $2.7M, if Sunday cost as much per hour as the whole library does on average | Estimate | Same |
-| Extreme range | $0.8M to $3.6M with every assumption at its cheapest or dearest at once | Estimate | Cost model, Summary sheet |
-| Per resident | About $2.15 a year | Estimate | Same |
-| Share of budgets | 5.8% of the library's budget; 0.27% of the General Fund; 0.09% of the county operating budget | Estimate | Same |
-| What it buys | 115 more open hours a week, a 9.8% increase | Confirmed, calculated | DCPL locations page |
-| First year | About $630,000 if every branch opens on September 12, 2027 (16 Sundays plus start-up) | Estimate | Cost model |
+All figures in this section are the campaign's estimates from the [cost model](../cost-model/). DCPL has not published a figure. Replacing these with the library's own is the first request the campaign makes.
 
-DCPL has not published a figure. Replacing these estimates with the library's own is the first request the campaign makes.
+| Fact | Detail | Where in the workbook |
+|---|---|---|
+| Public figure | **$1.65 to $2.1 million a year** for every branch, noon to 5 | Summary, planning range |
+| Base estimate | $1,648,950: new part-time staff, 25% Sunday differential | Summary, row 6 |
+| Same plan at time and a half | $1,903,380, if current staff work Sundays as overtime | Summary, planning range |
+| Outside check: Montgomery County, MD | $1,813,987 | Benchmarks, check 1 |
+| Outside check: DCPL's staffing cost per open hour | $1,784,007 without a Sunday differential; $2,135,809 with one (the top of the range) | Benchmarks, check 2 |
+| Practical ceiling | $2,693,986, if Sunday cost as much per hour as the whole library does on average. DeKalb's 2016 restoration, inflated, gives $2,689,709 | Benchmarks, checks 3 and 4 |
+| Arithmetic extremes | $811,121 and $3,715,343, with every assumption at its cheapest or dearest at once. The high figure is above the practical ceiling for that reason | Summary, Low and High |
+| Per resident | $2.15 at the base estimate; $2.78 at the top of the range | Summary |
+| Share of the General Fund | 0.27% to 0.35% ("about a third of one percent") | Summary |
+| Share of the library's budget | 5.8% to 7.5% | Summary |
+| Share of one year's General Fund revenue growth | 3.4% to 4.4% of the $48.4M growth in FY2026 | Calculated |
+| What it buys | 115 more open hours a week on top of 1,168, a 9.8% increase | Summary |
+| First year | $627,664 to $783,459 if every branch opens September 12, 2027 (16 Sundays plus start-up) | Summary |
+| One Sunday, all 23 locations | $32,979 at the base estimate | Summary, row 5 |
+| Security | $238,800 a year: one guard per branch and an officer at Decatur | Assumptions |
+| Visits per open branch-hour today | 28.4 | Summary |
+| Cost per visit today | $16.51 (whole library budget divided by visits) | Summary |
+| New cost per Sunday visit, if Sunday draws average traffic | $10.10 at the base estimate; $13.09 at the top of the range | Summary |
+| Traffic needed to match today's cost per visit | 61% of average at the base estimate; 79% at the top of the range | Summary |
+| The library's "lost share" | $5,039,582: what the FY2019 share of the General Fund would add today. Sunday hours are 33% to 42% of it | Summary |
+| Six-branch pilot | $430,161 a year at the base estimate; 17 branches stay closed | Alternatives |
+| Hours swap | 5,750 weekday hours given up a year; $254,430 still needed for the differential | Alternatives |
+| Weekday evening hours | $182 per added branch-hour against $287 for Sunday, at the base estimate | Alternatives |
 
 ## Who decides
 
@@ -79,7 +95,7 @@ DCPL has not published a figure. Replacing these estimates with the library's ow
 
 | System | Sunday service | Confidence | Source |
 |---|---|---|---|
-| Gwinnett | Every branch, noon to 5. Weekdays Mon–Thu 10–8, Fri–Sat 10–5 | Reported from the library's hours page | [Gwinnett locations and hours](https://gwinnettlibrary.com/locations-and-hours/) |
+| Gwinnett | All 15 branches, noon to 5. Weekdays Mon–Thu 10–8, Fri–Sat 10–5 (59 hours a week) | Reported from the library's hours page; branch count from a county news story | [Gwinnett locations and hours](https://gwinnettlibrary.com/locations-and-hours/) |
 | Cobb | South Cobb, West Cobb and Mountain View regional libraries, 1 to 5 | Reported from county pages | [Cobb library locations](https://www.cobbcounty.gov/library/library-locations/south-cobb-regional-library) |
 | Fulton | Central and every branch sampled are closed Sunday | Reported from branch pages | [Fulton Central](https://www.fulcolibrary.org/locations/central/) |
 | DeKalb | None | Confirmed | DCPL locations page |

@@ -16,9 +16,9 @@ We are organisations that serve DeKalb County residents. We write to ask that th
 
 Every one of the county's 23 libraries is closed on Sunday. The people we serve feel it: parents whose only free afternoon is Sunday, students with work due Monday, residents who work on Saturdays, families who keep a Saturday sabbath, and households without internet at home.
 
-The campaign estimates the cost at about $1.65 million a year, about $2.15 per resident. That is a small fraction of the county's General Fund, and it would put buildings and collections the public already owns to work on the day many residents can best use them. Gwinnett County already opens every branch on Sunday afternoons.
+The campaign estimates the cost at $1.65 to $2.1 million a year, between $2 and $3 per resident. That is a small fraction of the county's General Fund, and it would put buildings and collections the public already owns to work on the day many residents can best use them. Gwinnett County already opens every branch on Sunday afternoons.
 
-We ask that the service be funded at every branch, so that no neighbourhood is left to wait, and that it be staffed in a way that is fair to library employees.
+We ask that the service be funded at every branch, so that no neighbourhood is left to wait, and that it be staffed and secured in a way that is fair to library employees, designed with them.
 
 We would welcome the chance to work with you on it.
 

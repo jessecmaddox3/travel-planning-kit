@@ -8,7 +8,7 @@ Every DeKalb County library is closed on Sunday. For working families, students 
 
 We ask you to **fund and open every DeKalb County library on Sundays from noon to 5 p.m., starting in 2027.**
 
-The campaign estimates the cost at about $1.65 million a year, roughly $2.15 per resident and about a quarter of one percent of the county's General Fund. Gwinnett County already opens every one of its branches on Sunday afternoons.
+The campaign estimates the cost at $1.65 to $2.1 million a year: between $2 and $3 per resident, and about a third of one percent of the county's General Fund. Gwinnett County already opens every one of its branches on Sunday afternoons.
 
 Our libraries belong to all of us. They should be open on the day many of us are finally free to use them.
 

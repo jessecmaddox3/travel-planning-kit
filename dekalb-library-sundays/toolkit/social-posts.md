@@ -5,7 +5,7 @@ Short posts for Nextdoor, Facebook groups, Instagram and neighbourhood email lis
 ---
 
 **Launch**
-All 23 DeKalb County libraries are closed every Sunday. We think they should be open, noon to five, at every branch. It would cost about $2.15 per resident a year. Sign and share: [link]
+All 23 DeKalb County libraries are closed every Sunday. We think they should be open, noon to five, at every branch. It would cost between $2 and $3 per resident a year. Sign and share: [link]
 
 **The comparison**
 Gwinnett County: every library open Sunday, noon to 5.
@@ -16,7 +16,7 @@ We can fix that in the 2027 budget. [link]
 Your DeKalb library is open 7 hours all weekend. All 7 are on Saturday. Sunday, when families finally have time, the doors are locked. [link]
 
 **The price**
-What would it cost to open every DeKalb library on Sunday afternoons? About a quarter of one percent of the county's General Fund. We built the estimate from the county's own budget and published all of it: [link]
+What would it cost to open every DeKalb library on Sunday afternoons? About a third of one percent of the county's General Fund. We built the estimate from the county's own budget and published all of it: [link]
 
 **For parents**
 The project is due Monday. It is Sunday at 2. The library is closed. If that has been your house, sign this: [link]

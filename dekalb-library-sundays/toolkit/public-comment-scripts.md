@@ -23,7 +23,7 @@ Good [morning/evening]. My name is ______. I live in ______ and my library is __
 
 Our library is open seven hours all weekend, every one of them on Saturday. On Sunday, when my family finally has time, the doors are locked. That is true at all 23 county libraries.
 
-Opening every branch on Sunday afternoons is estimated to cost about two dollars and fifteen cents per resident a year. Gwinnett County does it at every branch today.
+Opening every branch on Sunday afternoons is estimated to cost between two and three dollars per resident a year. Gwinnett County does it at every branch today.
 
 I am not asking for anything new to be built. The buildings and the books are already ours. I am asking you to unlock the doors.
 
@@ -89,12 +89,12 @@ Please fund Sunday hours, noon to five, at every DeKalb County library. Thank yo
 
 My name is ______ and I live in ______. I want to give you the arithmetic.
 
-All 23 DeKalb libraries are closed on Sunday. Opening every one from noon to five is estimated at one point six five million dollars a year. That is about a quarter of one percent of the General Fund.
+All 23 DeKalb libraries are closed on Sunday. Opening every one from noon to five is estimated at between one point six five and two point one million dollars a year. That is about a third of one percent of the General Fund.
 
-That estimate includes a Sunday pay differential so shifts are voluntary, and a security guard at every branch.
+That estimate includes a Sunday pay differential and a security guard at every branch.
 
-In 2019 the library received five and a half percent of the General Fund. This year it receives four point seven percent, and its budget went down by nine hundred thousand dollars. Sunday hours would cost a third of the share the library has lost.
+The library's budget has grown since 2019, but more slowly than the General Fund. Its share has gone from five and a half percent to four point seven percent, and this year its budget went down by nine hundred thousand dollars. Sunday hours would cost less than half of what that lost share is worth.
 
-The full model is public and we have asked the library for its own figures. If theirs differ, we will use theirs.
+The full model is public. [Say only if true: We have asked the library for its own figures.] If the library's numbers differ, we will use theirs.
 
 Please fund Sunday hours, noon to five, at every DeKalb County library. Thank you.
